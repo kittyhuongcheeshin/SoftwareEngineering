@@ -4,7 +4,7 @@
 <style>
 /* Body */
 body {
-    background-color: #212763;
+    background-color: #4d3a59;
 }
 
 p{
@@ -42,8 +42,8 @@ p{
 }
 
 .btn.btn-primary {
-  background: #f7db1b;
-  border: 1px solid #f7db1b;
+  background: #a27e7e;
+  border: 1px solid #a27e7e;
   color: #000;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
@@ -64,6 +64,22 @@ p{
   box-shadow: 0 0 30px rgba(0,0,0,0.4);
   transform: scale(1.1);
 }
+#Status
+        {
+            text-align: right;
+            font-size: 20px;
+            margin-right: 16%;
+            padding: 30px 1px;
+        }
+        #statusbox
+        {
+            width: 15%;
+            padding: 7px 10px;
+            display: inline-block;
+            border-radius: 4px;
+            box-sizing: border-box;
+            text-align: center;
+        }
 
 </style>
 <body>
@@ -112,6 +128,19 @@ p{
 
             <!--Assign and Complaint type-->
             <div class="container text-center">
+            <div id="Status">
+
+<!--Status-->
+<div id="Status-content">
+    <label for="status">Status</label>
+        <select name="statusbox" id="statusbox">
+        <option value="volvo"> Ongoing </option>
+        <option value="Pending"> Pending </option>
+        <option value="Closed"> Closed </option>
+        <option value="Solved"> Solved </option>
+        </select>           
+</div>
+</div>
                 <div class="row">
                     @role('helpdesk')
                         <input type="hidden" name="helpdesk_caseid" value="{{@$case->case_id}}">
