@@ -4,7 +4,7 @@
 <style>
 /* Body */
 body {
-    background-color: #4d3a59;
+    background-color: #212763;
 }
 
 p{

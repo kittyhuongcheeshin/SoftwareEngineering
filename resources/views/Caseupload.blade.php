@@ -21,7 +21,7 @@ p{
 
 /* form */
 #container{
-  background-color: #fff;
+  background-color: #faead3;
   margin: auto;
   border-radius:30px;
   padding: 50px 35px 20px;
@@ -43,8 +43,8 @@ p{
 }
 
 .btn.btn-primary {
-  background: #f7db1b;
-  border: 1px solid #f7db1b;
+  background: #a27e7e;
+  border: 1px solid #a27e7e;
   color: #000;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);

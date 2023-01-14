@@ -18,7 +18,7 @@
 }
 
 body{
-    background: ##4d3a59;
+    background: #4d3a59;
     font-family: 'Asar', serif;
     font-family: 'Merriweather', serif;
 }
@@ -94,7 +94,7 @@ p{
 }
 
 .loginp a:hover{
-    color: #f7db1b;
+    color: #faead3;
 }
 
 label{

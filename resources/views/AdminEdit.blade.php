@@ -62,8 +62,8 @@ p{
 }
 
 .edit{
-    border:3px solid #f7db1b;
-    background: #f7db1b;
+    border:3px solid #a27e7e;
+    background: #a27e7e;
     border-radius: 10px;
     padding:5px 10px 5px 10px;
     font-weight:500;
@@ -75,8 +75,8 @@ p{
   transform: scale(1.1);
 }
 .btn.btn-primary {
-  background: #f7db1b;
-  border: 1px solid #f7db1b;
+  background: #a27e7e;
+  border: 1px solid #a27e7e;
   color: #000;
   font-weight: bold;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);

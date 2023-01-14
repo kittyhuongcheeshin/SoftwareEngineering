@@ -15,6 +15,7 @@
     body {
         margin: 0;
         background-color: rgba(122, 217, 248, 0.61);
+        background-color: #4d3a59;
     }
 
     #container {

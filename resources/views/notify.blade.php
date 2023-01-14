@@ -39,7 +39,7 @@
     }
 
     #dash {
-        background-color: #f7db1b;
+        background-color: #f0c2a2;
         font-size:18px;
         padding:15px 20px;
         text-decoration:none;
@@ -55,7 +55,7 @@
     
 
     #case {
-        background-color: #f7db1b;
+        background-color: #f0c2a2;
         font-size:18px;
         padding:15px 20px;
         text-decoration:none;

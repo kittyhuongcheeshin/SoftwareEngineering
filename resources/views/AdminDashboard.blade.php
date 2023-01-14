@@ -37,8 +37,8 @@ html body {
 }
 
 .edit{
-    border:3px solid #f7db1b;
-    background: #f7db1b;
+    border:3px solid #a27e7e;
+    background: #a27e7e;
     border-radius: 10px;
     padding:5px 10px 5px 10px;
     font-weight:500;
